@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --color-black: black;
+  --color-pink: #f43f5e;
+  --color-orange: #f97316;
+  --color-green: #22c55e;
+  --color-teal: #14b8a6;
+  --color-blue: #0ea5e9;
+  --color-sky: #06b6d4;
+  --color-purple: #a855f7;
+  --color-red: #ef4444;
+
+  --linear-gradient-black: linear-gradient(148deg, #555454, #000000);
+  --linear-gradient-pink: linear-gradient(148deg, #fda4af, #db2777);
+  --linear-gradient-orange: linear-gradient(148deg, #fdba74, #c2410c);
+  --linear-gradient-green: linear-gradient(148deg, #bef264, #15803d);
+  --linear-gradient-teal: linear-gradient(148deg, #a7f3d0, #047857);
+  --linear-gradient-blue: linear-gradient(148deg, #22d3ee, #2563eb);
+  --linear-gradient-sky: linear-gradient(148deg, #bae6fd, #0ea5e9);
+  --linear-gradient-purple: linear-gradient(148deg, #f0abfc, #7e22ce);
+  --linear-gradient-red: linear-gradient(148deg, #fda4af, #dc2626);
+
+  --radial-gradient-black: radial-gradient(
+    circle farthest-corner at center center,
+    #737373 0%,
+    #262626 100%
+  );
+  --radial-gradient-pink: radial-gradient(
+    circle farthest-corner at center center,
+    #f472b6 0%,
+    #db2777 100%
+  );
+  --radial-gradient-orange: radial-gradient(
+    circle farthest-corner at center center,
+    #fb923c 0%,
+    #ea580c 100%
+  );
+  --radial-gradient-green: radial-gradient(
+    circle farthest-corner at center center,
+    #4ade80 0%,
+    #059669 100%
+  );
+  --radial-gradient-teal: radial-gradient(
+    circle farthest-corner at center center,
+    #34d399 0%,
+    #059669 100%
+  );
+  --radial-gradient-emerald: radial-gradient(
+    circle farthest-corner at center center,
+    #2dd4bf 0%,
+    #0d9488 100%
+  );
+  --radial-gradient-blue: radial-gradient(
+    circle farthest-corner at center center,
+    #60a5fa 0%,
+    #1d4ed8 100%
+  );
+  --radial-gradient-sky: radial-gradient(
+    circle farthest-corner at center center,
+    #7dd3fc 0%,
+    #0ea5e9 100%
+  );
+  --radial-gradient-purple: radial-gradient(
+    circle farthest-corner at center center,
+    #a855f7 0%,
+    #6b21a8 100%
+  );
+  --radial-gradient-red: radial-gradient(
+    circle farthest-corner at center center,
+    #f87171 0%,
+    #b91c1c 100%
+  );
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* --linear-gradient-black: linear-gradient(148deg, #ffffff, #ffffff); */
+  }
+}
+/* background-image: linear-gradient(148deg, #fda4af, #db2777); */
+/* background-image: linear-gradient(148deg, #fdba74, #c2410c); */
+/* background-image: linear-gradient(148deg, #bef264, #15803d); */
+/* background-image: linear-gradient(148deg, #a7f3d0, #047857); */
+/* background-image: linear-gradient(148deg, #22d3ee, #2563eb); */
+/* background-image: linear-gradient(148deg, #f0abfc, #7e22ce); */
+/* background-image: linear-gradient(148deg, #fda4af, #dc2626); */
+
+/* background-image: radial-gradient(circle farthest-corner at center center, #4ade80 0%, #059669 100%); */
+/* background-image: radial-gradient(circle farthest-corner at center center, #34d399 0%, #059669 100%); */
+/* background-image: radial-gradient(circle farthest-corner at center center, #2dd4bf 0%, #0d9488 100%); */
+/* background-image: radial-gradient(circle farthest-corner at center center, #60a5fa 0%, #1d4ed8 100%); */
+/* background-image: radial-gradient(circle farthest-corner at center center, #a855f7 0%, #6b21a8 100%); */
+/* background-image: radial-gradient(circle farthest-corner at center center, #f472b6 0%, #db2777 100%); */
+/* background-image: radial-gradient(circle farthest-corner at center center, #f87171 0%, #b91c1c 100%); */
+/* background-image: radial-gradient(circle farthest-corner at center center, #fb923c 0%, #ea580c 100%); */
+/* background-image: radial-gradient(circle farthest-corner at center center, #737373 0%, #262626 100%); */
